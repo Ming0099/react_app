@@ -5,15 +5,38 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Library from './JSX/Library';
+import Clock from './Elements/Clock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Library /> {/*<App />*/}
-  </React.StrictMode>
-);
+setInterval(() =>{
+  root.render(
+    <React.StrictMode>
+      <Clock/>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}, 1000);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+/*
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+*/
+
+/* <JSX>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Library />
+  </React.StrictMode>
+);
+*/

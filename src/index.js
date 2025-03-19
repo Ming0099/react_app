@@ -6,16 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 import Library from './JSX/Library';
 import Clock from './Elements/Clock';
+import CommentList from './Components_Props/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(() =>{
-  root.render(
-    <React.StrictMode>
-      <Clock/>
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
-}, 1000);
+root.render(
+  <React.StrictMode>
+    <CommentList />
+  </React.StrictMode>
+);
 
 
 // If you want to start measuring performance in your app, pass a function
@@ -39,4 +37,16 @@ root.render(
     <Library />
   </React.StrictMode>
 );
+*/
+
+/* <Elements>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+setInterval(() =>{
+  root.render(
+    <React.StrictMode>
+      <Clock/>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}, 1000);
 */

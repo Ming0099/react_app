@@ -8,11 +8,12 @@ import Library from './JSX/Library';
 import Clock from './Elements/Clock';
 import CommentList from './Components_Props/CommentList';
 import NotificationList from './State/NotificationList';
+import Accommotate from './Hooks/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommotate />
   </React.StrictMode>
 );
 
@@ -57,6 +58,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <CommentList />
+  </React.StrictMode>
+);
+*/
+
+/* <State>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <NotificationList />
   </React.StrictMode>
 );
 */

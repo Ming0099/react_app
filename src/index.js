@@ -9,11 +9,12 @@ import Clock from './Elements/Clock';
 import CommentList from './Components_Props/CommentList';
 import NotificationList from './State/NotificationList';
 import Accommotate from './Hooks/Accommodate';
+import ConfirmButton from './Event/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accommotate />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
@@ -67,6 +68,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NotificationList />
+  </React.StrictMode>
+);
+*/
+
+/* <Hooks>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Accommotate />
   </React.StrictMode>
 );
 */

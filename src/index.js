@@ -10,11 +10,12 @@ import CommentList from './Components_Props/CommentList';
 import NotificationList from './State/NotificationList';
 import Accommotate from './Hooks/Accommodate';
 import ConfirmButton from './Event/ConfirmButton';
+import LandingPage from './Conditional_Rendering/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>
 );
 
@@ -77,6 +78,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Accommotate />
+  </React.StrictMode>
+);
+*/
+
+/* <Event>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ConfirmButton />
   </React.StrictMode>
 );
 */

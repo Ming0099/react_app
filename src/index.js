@@ -11,11 +11,12 @@ import NotificationList from './State/NotificationList';
 import Accommotate from './Hooks/Accommodate';
 import ConfirmButton from './Event/ConfirmButton';
 import LandingPage from './Conditional_Rendering/LandingPage';
+import AttendanceBook from './List_and_Keys/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>
 );
 
@@ -90,3 +91,12 @@ root.render(
   </React.StrictMode>
 );
 */
+
+/* <Conditional_Rendering>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>
+);
+ */

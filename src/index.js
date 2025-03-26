@@ -12,11 +12,13 @@ import Accommotate from './Hooks/Accommodate';
 import ConfirmButton from './Event/ConfirmButton';
 import LandingPage from './Conditional_Rendering/LandingPage';
 import AttendanceBook from './List_and_Keys/AttendanceBook';
+import SignUp from './Forms/SignUp';
 
+// Forms
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>
 );
 
@@ -97,6 +99,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <LandingPage />
+  </React.StrictMode>
+);
+ */
+
+/* <List_and_Keys>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AttendanceBook />
   </React.StrictMode>
 );
  */

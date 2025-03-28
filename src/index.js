@@ -14,12 +14,13 @@ import LandingPage from './Conditional_Rendering/LandingPage';
 import AttendanceBook from './List_and_Keys/AttendanceBook';
 import SignUp from './Forms/SignUp';
 import Calculator from './Shared_State/Calculator';
+import ProfileCard from './Composition_Inheritance/ProfileCard';
 
-// Shared_State
+// Composition_Inheritance
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 );
 
@@ -118,6 +119,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <SignUp />
+  </React.StrictMode>
+);
+*/
+
+/*// Shared_State
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Calculator />
   </React.StrictMode>
 );
 */

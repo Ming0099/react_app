@@ -15,12 +15,13 @@ import AttendanceBook from './List_and_Keys/AttendanceBook';
 import SignUp from './Forms/SignUp';
 import Calculator from './Shared_State/Calculator';
 import ProfileCard from './Composition_Inheritance/ProfileCard';
+import DarkOrLight from './Context/DarkOrLight';
 
-// Composition_Inheritance
+// Context
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrLight />
   </React.StrictMode>
 );
 
@@ -131,3 +132,12 @@ root.render(
   </React.StrictMode>
 );
 */
+
+/*// Composition_Inheritance
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ProfileCard />
+  </React.StrictMode>
+);
+ */
